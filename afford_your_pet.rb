@@ -29,9 +29,9 @@ if pet=="dog"
   elsif pet=="rodent"
     puts "How much money are you able to spend on your rodent per year? Don't put a dollar sign, just the number."
     money_rodent=gets.chomp.to_i
-    if money_rodent<300
+    if money_rodent<200
       puts "The average rodent costs 300 dollars in the first year. I'm sorry, but you won't be able to afford your rodent. Thanks for using this quiz, otherwise you and your pet would not have been comfortable. Consider fostering a pet instead, or try another pet."
-      elsif money_rodent>=300
+      elsif money_rodent>=200
           puts "The average rodent costs 300 dollars in the first year. Congrats, you can afford your rodent! Thanks for using this quiz to make sure you and your pet will be comfortable."
     end
   elsif pet=="small mammal"
